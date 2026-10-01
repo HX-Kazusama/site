@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="ja" class="no-intro">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>お菓子紹介 | お菓子万博 Y校祭2026 1-7</title>
+  <meta name="description" content="1ｰ7の出店で買えるお菓子の説明やアレルギー情報です。中国・韓国・フィリピン・イギリス・アメリカ・ペルー・ケニアのお菓子を紹介します。">
+  <meta name="theme-color" content="#A3161F">
+  <meta property="og:title" content="お菓子紹介 | お菓子万博 1-7">
+  <meta property="og:image" content="assets/img/posters/poster-1-sm.jpg">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Space+Mono:wght@400;700&family=Zen+Kaku+Gothic+New:wght@400;500;700;900&display=swap">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script>document.documentElement.classList.add("js");</script>
+  <script src="assets/js/data.js" defer></script>
+  <script src="assets/js/main.js" defer></script>
+</head>
+<body data-page="okashi">
+  <a class="skip-link" href="#main">本文へスキップ</a>
+
+  <header class="site-header">
+    <div class="container bar">
+      <a class="brand" href="index.html" aria-label="お菓子万博 ホーム">
+        <svg class="brand-mark" viewBox="0 0 48 48" aria-hidden="true">
+          <path d="M16.5 43.2 A20 20 0 1 1 31.5 43.2" />
+          <text x="24" y="30.5">菓</text>
+        </svg>
+        <span class="brand-text">お菓子万博<small>Y校祭2026 · 1-7</small></span>
+      </a>
+      <nav class="nav" aria-label="メインメニュー">
+        <ul class="nav-links">
+          <li><a href="index.html">ホーム</a></li>
+          <li><a href="okashi.html" aria-current="page">お菓子紹介</a></li>
+          <li><a href="gallery.html">ギャラリー</a></li>
+        </ul>
+      </nav>
+      <button class="menu-btn" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="メニューを開く">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <div class="mobile-menu" id="mobile-menu" hidden>
+    <nav aria-label="モバイルメニュー">
+      <ul>
+        <li><a href="index.html"><small>01</small>ホーム</a></li>
+        <li><a href="okashi.html" aria-current="page"><small>02</small>お菓子紹介</a></li>
+        <li><a href="gallery.html"><small>03</small>ギャラリー</a></li>
+      </ul>
+    </nav>
+    <p class="mobile-menu-foot">Y校祭2026 · 1-7 世界のお菓子万博</p>
+  </div>
+
+  <main id="main">
+    <section class="page-hero">
+      <div class="rays" aria-hidden="true"></div>
+      <span class="page-hero-bg" aria-hidden="true">SWEETS</span>
+      <div class="container">
+        <nav class="crumbs" aria-label="パンくずリスト"><a href="index.html">ホーム</a><span aria-hidden="true">/</span><span>お菓子紹介</span></nav>
+        <p class="eyebrow">SWEETS · 7 COUNTRIES</p>
+        <h1 class="page-title"><span data-split>お菓子紹介</span></h1>
+        <p class="page-lead">1ｰ7の出店で買えるお菓子の説明やアレルギー情報です。</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="passport" id="passport" data-reveal>
+          <div class="passport-cover" aria-hidden="true">
+            <svg viewBox="0 0 48 48"><path d="M16.5 43.2 A20 20 0 1 1 31.5 43.2" /><text x="24" y="31">菓</text></svg>
+            <p>PASSPORT</p>
+          </div>
+          <div class="passport-page">
+            <div class="passport-head">
+              <h2 class="passport-title">お菓子パスポート</h2>
+              <p class="passport-count" id="passport-count" aria-live="polite"><b>0</b> / 7 カ国</p>
+            </div>
+            <p class="passport-text">お菓子のページを見ると入国スタンプがもらえます。7カ国ぜんぶ集めて世界一周しよう！</p>
+            <ol class="passport-slots" id="passport-slots"></ol>
+            <div class="passport-bar" aria-hidden="true"><span id="passport-bar"></span></div>
+            <div class="passport-foot">
+              <span>※ スタンプはこの端末に保存されます</span>
+              <button class="passport-reset" id="passport-reset" type="button">リセット</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="notice" role="note" data-reveal>
+          <span class="notice-icon" aria-hidden="true">!</span>
+          <p><strong>アレルギー情報について</strong>各お菓子のページにアレルギー情報・注意事項を記載しています。ご不明な点は、ご購入前に1-7のスタッフへお気軽にお声がけください。</p>
+        </div>
+
+        <div class="filters" id="filters" role="group" aria-label="地域で絞り込む"></div>
+
+        <ul class="sweet-grid" id="sweet-grid" data-stagger></ul>
+
+        <div class="section-cta back-cta" data-reveal>
+          <a class="btn btn-red" href="gallery.html">ギャラリーを見る <span class="arrow" aria-hidden="true">→</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-marquee" aria-hidden="true">
+      <div class="marquee-track"><span>お菓子万博</span><i>✦</i><span>WORLD SWEETS EXPO</span><i>✦</i><span>お菓子万博</span><i>✦</i><span>WORLD SWEETS EXPO</span><i>✦</i></div>
+    </div>
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <svg class="brand-mark" viewBox="0 0 48 48" aria-hidden="true"><path d="M16.5 43.2 A20 20 0 1 1 31.5 43.2" /><text x="24" y="30.5">菓</text></svg>
+        <p>Y校祭2026<br><strong>1-7 世界のお菓子万博</strong></p>
+      </div>
+      <nav class="footer-nav" aria-label="フッターメニュー">
+        <a href="index.html">ホーム</a>
+        <a href="okashi.html">お菓子紹介</a>
+        <a href="gallery.html">ギャラリー</a>
+        <a href="https://www.edu.city.yokohama.lg.jp/school/hs/y-shogyo/index.cfm/21,9243,130,html" target="_blank" rel="noopener">Y校公式サイト ↗</a>
+      </nav>
+      <button class="to-top" type="button" aria-label="ページの先頭へ戻る"><span aria-hidden="true">↑</span> TOP</button>
+    </div>
+    <p class="copyright">© 2026 Y校 1年7組</p>
+  </footer>
+</body>
+</html>

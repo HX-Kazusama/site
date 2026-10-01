@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="14" fill="#A3161F"/>
+  <path d="M23.5 55 A24 24 0 1 1 40.5 55" fill="none" stroke="#F4EBDC" stroke-width="5.5" stroke-linecap="round"/>
+  <text x="32" y="41" text-anchor="middle" font-family="'Hiragino Sans','Yu Gothic','Noto Sans JP',sans-serif" font-weight="900" font-size="22" fill="#F4EBDC">菓</text>
+</svg>
