@@ -412,8 +412,8 @@ button { font: inherit; color: inherit; cursor: pointer; }
 .awning {
   position: absolute; left: 0; right: 0; top: 0; height: 58px;
   background: repeating-linear-gradient(90deg, var(--red) 0 48px, var(--white) 48px 96px);
-  -webkit-mask: linear-gradient(#000 0 0) top / 100% calc(100% - 24px) no-repeat, radial-gradient(circle 24px at 24px 0, #000 98%, transparent) bottom / 48px 24px repeat-x;
-  mask: linear-gradient(#000 0 0) top / 100% calc(100% - 24px) no-repeat, radial-gradient(circle 24px at 24px 0, #000 98%, transparent) bottom / 48px 24px repeat-x;
+  -webkit-mask: linear-gradient(#000 0 0) left top / 100% calc(100% - 24px) no-repeat, radial-gradient(circle 24px at 24px 0, #000 98%, transparent) left bottom / 48px 24px repeat-x;
+  mask: linear-gradient(#000 0 0) left top / 100% calc(100% - 24px) no-repeat, radial-gradient(circle 24px at 24px 0, #000 98%, transparent) left bottom / 48px 24px repeat-x;
   filter: drop-shadow(0 6px 6px rgb(0 0 0 / 0.2));
   transform-origin: top; animation: awning-sway 5s ease-in-out infinite;
 }
